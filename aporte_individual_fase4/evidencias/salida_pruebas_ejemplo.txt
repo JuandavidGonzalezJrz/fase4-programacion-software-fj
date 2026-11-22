@@ -1,0 +1,26 @@
+test_01_texto_valido (test_control_errores.PruebasControlErrores.test_01_texto_valido) ... ok
+test_02_texto_vacio (test_control_errores.PruebasControlErrores.test_02_texto_vacio) ... ok
+test_03_texto_tipo_incorrecto (test_control_errores.PruebasControlErrores.test_03_texto_tipo_incorrecto) ... ok
+test_04_entero_valido (test_control_errores.PruebasControlErrores.test_04_entero_valido) ... ok
+test_05_entero_cero (test_control_errores.PruebasControlErrores.test_05_entero_cero) ... ok
+test_06_entero_decimal_invalido (test_control_errores.PruebasControlErrores.test_06_entero_decimal_invalido) ... ok
+test_07_encadenamiento_excepciones (test_control_errores.PruebasControlErrores.test_07_encadenamiento_excepciones) ... ok
+test_08_precio_valido (test_control_errores.PruebasControlErrores.test_08_precio_valido) ... ok
+test_09_precio_infinito (test_control_errores.PruebasControlErrores.test_09_precio_infinito) ... ok
+test_10_precio_no_numerico (test_control_errores.PruebasControlErrores.test_10_precio_no_numerico) ... ok
+test_11_servicio_disponible (test_control_errores.PruebasControlErrores.test_11_servicio_disponible) ... ok
+test_12_servicio_no_disponible (test_control_errores.PruebasControlErrores.test_12_servicio_no_disponible) ... ok
+test_13_reserva_estado_incorrecto (test_control_errores.PruebasControlErrores.test_13_reserva_estado_incorrecto) ... ok
+test_14_operacion_valida (test_control_errores.PruebasControlErrores.test_14_operacion_valida) ... ok
+test_15_operacion_con_error_y_continuidad (test_control_errores.PruebasControlErrores.test_15_operacion_con_error_y_continuidad) ... ok
+test_16_error_imprevisto_controlado (test_control_errores.PruebasControlErrores.test_16_error_imprevisto_controlado) ... ok
+test_17_log_registra_eventos (test_control_errores.PruebasControlErrores.test_17_log_registra_eventos) ... ok
+test_18_simulacion_servicio (test_control_errores.PruebasControlErrores.test_18_simulacion_servicio) ... ok
+test_19_simulacion_reserva_valida (test_control_errores.PruebasControlErrores.test_19_simulacion_reserva_valida) ... ok
+test_20_simulacion_reserva_no_disponible (test_control_errores.PruebasControlErrores.test_20_simulacion_reserva_no_disponible) ... ok
+test_21_parametro_faltante (test_control_errores.PruebasControlErrores.test_21_parametro_faltante) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.003s
+
+OK

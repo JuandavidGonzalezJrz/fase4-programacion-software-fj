@@ -1,0 +1,80 @@
+2026-11-22 14:16:39 | INFO | 01 Cliente válido | Operación exitosa
+2026-11-22 14:16:39 | INFO | 01 Cliente válido | Operación finalizada
+2026-11-22 14:16:39 | ERROR | 02 Cliente sin nombre | El nombre del cliente debe ser un texto no vacío
+2026-11-22 14:16:39 | INFO | 02 Cliente sin nombre | Operación finalizada
+2026-11-22 14:16:39 | ERROR | 03 Nombre de cliente incorrecto | El nombre del cliente debe ser un texto no vacío
+2026-11-22 14:16:39 | INFO | 03 Nombre de cliente incorrecto | Operación finalizada
+2026-11-22 14:16:39 | INFO | 04 Servicio válido | Operación exitosa
+2026-11-22 14:16:39 | INFO | 04 Servicio válido | Operación finalizada
+2026-11-22 14:16:39 | ERROR | 05 Servicio con precio negativo | El precio debe ser mayor que cero y válido
+2026-11-22 14:16:39 | INFO | 05 Servicio con precio negativo | Operación finalizada
+2026-11-22 14:16:39 | ERROR | 06 Servicio con precio en letras | El precio debe ser numérico
+2026-11-22 14:16:39 | INFO | 06 Servicio con precio en letras | Operación finalizada
+2026-11-22 14:16:39 | ERROR | 07 Servicio con precio infinito | El precio debe ser mayor que cero y válido
+2026-11-22 14:16:39 | INFO | 07 Servicio con precio infinito | Operación finalizada
+2026-11-22 14:16:39 | INFO | 08 Reserva válida | Operación exitosa
+2026-11-22 14:16:39 | INFO | 08 Reserva válida | Operación finalizada
+2026-11-22 14:16:39 | ERROR | 09 Reserva con duración cero | La duración debe ser mayor que cero
+2026-11-22 14:16:39 | INFO | 09 Reserva con duración cero | Operación finalizada
+2026-11-22 14:16:39 | ERROR | 10 Servicio no disponible | El servicio no se encuentra disponible
+2026-11-22 14:16:39 | INFO | 10 Servicio no disponible | Operación finalizada
+2026-11-22 14:16:39 | ERROR | 11 Reserva ya cancelada | Solo se pueden procesar reservas pendientes
+2026-11-22 14:16:39 | INFO | 11 Reserva ya cancelada | Operación finalizada
+2026-11-22 14:16:39 | ERROR | 12 Reserva sin cliente | Debe indicar un cliente válido
+2026-11-22 14:16:39 | INFO | 12 Reserva sin cliente | Operación finalizada
+2026-11-22 14:16:39 | ERROR | 13 Duración no numérica | La duración debe ser un número entero
+2026-11-22 14:16:39 | INFO | 13 Duración no numérica | Operación finalizada
+2026-11-22 14:16:39 | ERROR | 14 Error imprevisto | Error inesperado
+Traceback (most recent call last):
+  File "/mnt/data/aporte_individual_fase4/control_errores.py", line 90, in ejecutar_operacion
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/aporte_individual_fase4/simulacion_individual.py", line 55, in simular_error_imprevisto
+    return 10 / 0
+           ~~~^~~
+ZeroDivisionError: division by zero
+2026-11-22 14:16:39 | INFO | 14 Error imprevisto | Operación finalizada
+2026-11-22 14:16:39 | INFO | 15 Otra reserva válida después de errores | Operación exitosa
+2026-11-22 14:16:39 | INFO | 15 Otra reserva válida después de errores | Operación finalizada
+2026-11-22 14:17:59 | INFO | 01 Cliente válido | Operación exitosa
+2026-11-22 14:17:59 | INFO | 01 Cliente válido | Operación finalizada
+2026-11-22 14:17:59 | ERROR | 02 Cliente sin nombre | El nombre del cliente debe ser un texto no vacío
+2026-11-22 14:17:59 | INFO | 02 Cliente sin nombre | Operación finalizada
+2026-11-22 14:17:59 | ERROR | 03 Nombre de cliente incorrecto | El nombre del cliente debe ser un texto no vacío
+2026-11-22 14:17:59 | INFO | 03 Nombre de cliente incorrecto | Operación finalizada
+2026-11-22 14:17:59 | INFO | 04 Servicio válido | Operación exitosa
+2026-11-22 14:17:59 | INFO | 04 Servicio válido | Operación finalizada
+2026-11-22 14:17:59 | ERROR | 05 Servicio con precio negativo | El precio debe ser mayor que cero y válido
+2026-11-22 14:17:59 | INFO | 05 Servicio con precio negativo | Operación finalizada
+2026-11-22 14:17:59 | ERROR | 06 Servicio con precio en letras | El precio debe ser numérico
+2026-11-22 14:17:59 | INFO | 06 Servicio con precio en letras | Operación finalizada
+2026-11-22 14:17:59 | ERROR | 07 Servicio con precio infinito | El precio debe ser mayor que cero y válido
+2026-11-22 14:17:59 | INFO | 07 Servicio con precio infinito | Operación finalizada
+2026-11-22 14:17:59 | INFO | 08 Reserva válida | Operación exitosa
+2026-11-22 14:17:59 | INFO | 08 Reserva válida | Operación finalizada
+2026-11-22 14:17:59 | ERROR | 09 Reserva con duración cero | La duración debe ser mayor que cero
+2026-11-22 14:17:59 | INFO | 09 Reserva con duración cero | Operación finalizada
+2026-11-22 14:17:59 | ERROR | 10 Servicio no disponible | El servicio no se encuentra disponible
+2026-11-22 14:17:59 | INFO | 10 Servicio no disponible | Operación finalizada
+2026-11-22 14:17:59 | ERROR | 11 Reserva ya cancelada | Solo se pueden procesar reservas pendientes
+2026-11-22 14:17:59 | INFO | 11 Reserva ya cancelada | Operación finalizada
+2026-11-22 14:17:59 | ERROR | 12 Reserva sin cliente | Debe indicar un cliente válido
+2026-11-22 14:17:59 | INFO | 12 Reserva sin cliente | Operación finalizada
+2026-11-22 14:17:59 | ERROR | 13 Duración no numérica | La duración debe ser un número entero
+2026-11-22 14:17:59 | INFO | 13 Duración no numérica | Operación finalizada
+2026-11-22 14:17:59 | ERROR | 14 Error imprevisto | Error inesperado
+Traceback (most recent call last):
+  File "/mnt/data/aporte_individual_fase4/control_errores.py", line 90, in ejecutar_operacion
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/aporte_individual_fase4/simulacion_individual.py", line 55, in simular_error_imprevisto
+    return 10 / 0
+           ~~~^~~
+ZeroDivisionError: division by zero
+2026-11-22 14:17:59 | INFO | 14 Error imprevisto | Operación finalizada
+2026-11-22 14:17:59 | ERROR | 15 Cliente sin parámetro obligatorio | Error inesperado
+Traceback (most recent call last):
+  File "/mnt/data/aporte_individual_fase4/control_errores.py", line 90, in ejecutar_operacion
+    resultado = funcion(*args, **kwargs)
+TypeError: simular_cliente() missing 1 required positional argument: 'nombre'
+2026-11-22 14:17:59 | INFO | 15 Cliente sin parámetro obligatorio | Operación finalizada
+2026-11-22 14:17:59 | INFO | 16 Otra reserva válida después de errores | Operación exitosa
+2026-11-22 14:17:59 | INFO | 16 Otra reserva válida después de errores | Operación finalizada

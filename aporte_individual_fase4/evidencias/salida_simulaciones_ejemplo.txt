@@ -1,0 +1,19 @@
+01 Cliente válido: CORRECTO | Cliente temporal: Ana
+02 Cliente sin nombre: CONTROLADO | El nombre del cliente debe ser un texto no vacío
+03 Nombre de cliente incorrecto: CONTROLADO | El nombre del cliente debe ser un texto no vacío
+04 Servicio válido: CORRECTO | Servicio temporal: Sala
+05 Servicio con precio negativo: CONTROLADO | El precio debe ser mayor que cero y válido
+06 Servicio con precio en letras: CONTROLADO | El precio debe ser numérico
+07 Servicio con precio infinito: CONTROLADO | El precio debe ser mayor que cero y válido
+08 Reserva válida: CORRECTO | Reserva simulada de María: 2 h, costo 100000
+09 Reserva con duración cero: CONTROLADO | La duración debe ser mayor que cero
+10 Servicio no disponible: CONTROLADO | El servicio no se encuentra disponible
+11 Reserva ya cancelada: CONTROLADO | Solo se pueden procesar reservas pendientes
+12 Reserva sin cliente: CONTROLADO | Debe indicar un cliente válido
+13 Duración no numérica: CONTROLADO | La duración debe ser un número entero
+14 Error imprevisto: CONTROLADO | Ocurrió un error inesperado. Revisar el log
+15 Cliente sin parámetro obligatorio: CONTROLADO | Ocurrió un error inesperado. Revisar el log
+16 Otra reserva válida después de errores: CORRECTO | Reserva simulada de María: 1 h, costo 50000
+
+Se ejecutaron 16 simulaciones: 4 exitosas y 12 con errores controlados.
+Archivo de registro: registros/sistema.log
